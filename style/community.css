@@ -1,0 +1,146 @@
+/* GENERAL */
+
+body {
+    background-color: #0B1929;
+    color: #EAF6FF;
+}
+
+
+/* CURRENT WEATHER HERO*/
+
+.com-section-1 {
+    margin-top: 75px;
+    background: linear-gradient(120deg, #07182B, #123B5A, #176080);
+    color: white;
+}
+
+.weather-icon {
+    font-size: 75px;
+}
+
+#temperature {
+    font-size: 85px;
+    font-weight: 600;
+    color: white;
+}
+
+.hero-description {
+    color: #DCEAF5;
+}
+
+.weather-detail {
+    height: 100%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    transition: 0.3s ease;
+}
+
+.weather-detail i {
+    font-size: 28px;
+    color: #7DD3FC;
+}
+
+.weather-detail p {
+    color: #B8D5E8;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+.weather-detail h4 {
+    color: white;
+    font-weight: bold;
+}
+
+.weather-detail:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-5px);
+}
+
+
+/*  WEATHER FORECAST */
+
+.forecast-wrapper {
+    background-color: #10263D;
+    border: 1px solid #294B68;
+}
+
+.community-heading {
+    color: #7DD3FC;
+}
+
+.forecast-card {
+    height: 100%;
+    padding: 18px 10px;
+    text-align: center;
+    background-color: #183B5B;
+    border: 1px solid #326184;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+.forecast-card:hover {
+    background-color: #24577D;
+    transform: translateY(-5px);
+}
+
+.forecast-card p {
+    color: #B8D5E8;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.forecast-card h6 {
+    color: #7DD3FC;
+    font-weight: bold;
+}
+
+.forecast-card h4 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.forecast-card span {
+    color: #B8D5E8;
+}
+
+.forecast-icon {
+    font-size: 35px;
+    margin: 12px 0;
+}
+
+.forecast-divider {
+    border-color: #7DD3FC;
+}
+
+
+/* ============== Community =========== */
+.card {
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(23, 43, 77, 0.15);
+}
+
+.card h4 {
+    color: #243f63;
+}
+
+a {
+    color: #29466b;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #527da8;
+    text-decoration: underline;
+}
+
+.alert-info {
+    background-color: #e3edf7;
+    color: #243f63;
+}
